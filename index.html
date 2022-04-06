@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HOME - RESUME</title>
+    <link rel="stylesheet" href="RES-PORT_Design.css">
+    <link rel="icon" href="fantab.png">
+  </head>
+  <body>
+    <div class="special">
+    <div class="perinfo">
+      <nav>
+        <ul>
+        <li><a href="index.html" id="HOME">HOME</a></li>
+        <li><a href="About.html" id="ABOUT">ABOUT ME</a></li>
+        <li><a href="Objectives.html" id="OBJECTIVES">OBJECTIVES</a></li>
+        <li><a href="Education.html" id="EDUCATION">EDUCATION</a></li>
+        <li><a href="Skills.html" id="SKILLS">SKILLS</a></li>
+        <li><a href="References.html" id="REFERENCES">REFERENCES</a></li>
+      </ul>
+      </nav>
+      <img src="VincePic.png" alt="Vincene Kyut">
+      <h1>Hello! I'm Vincene C. Perez</h1>
+      <p>WELCOME TO MY RESUME WEBSITE</p>
+      </div>
+    </div>
+  </body>
+  <script>
+  var n = localStorage.getItem('on_load_counter');
+   if (n === null) {
+    n = 0;
+   }
+    n++;
+   localStorage.setItem("on_load_counter", n);
+   document.getElementById('visitCnt').innerHTML = n;
+  </script>
+</html>
